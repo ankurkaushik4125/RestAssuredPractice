@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+
+<listener class-name="com.qa.logsReport.ExtentReporterNG"/>
+<listener class-name="com.qa.CommonUtil.Listeners"/>
+</listeners>
+<test name="GetUserList">
+<classes>
+<class name="com.qa.TestCases.BrowserTest">
+</class>
+<class name="com.qa.TestCases.UserListGetApiTest">
+</class>
+<class name="com.qa.TestCases.AddUserPostTest">
+</class>
+<class name="com.qa.TestCases.UpdatePutTest">
+</class>
+<class name="com.qa.TestCases.PartialUpdatePatchTest">
+</class>
+<class name="com.qa.TestCases.AddUserDataDriven">
+</class>
+</classes>
+</test>
+</suite>
+<!-- Suite -->

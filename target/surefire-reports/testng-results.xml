@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="20123" started-at="2022-04-03T22:21:05 IST" finished-at="2022-04-03T22:21:26 IST">
+    <groups>
+    </groups>
+    <test name="GetUserList" duration-ms="20123" started-at="2022-04-03T22:21:05 IST" finished-at="2022-04-03T22:21:26 IST">
+      <class name="com.qa.TestCases.PartialUpdatePatchTest">
+        <test-method status="PASS" signature="Validate_Patch_update_Request()[pri:1, instance:com.qa.TestCases.PartialUpdatePatchTest@462d5aee]" name="Validate_Patch_update_Request" duration-ms="1737" started-at="2022-04-03T22:21:14 IST" finished-at="2022-04-03T22:21:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Patch_update_Request -->
+      </class> <!-- com.qa.TestCases.PartialUpdatePatchTest -->
+      <class name="com.qa.TestCases.AddUserDataDriven">
+        <test-method status="PASS" signature="Validate_add_user_data_driven(java.lang.String,java.lang.String)[pri:0, instance:com.qa.TestCases.AddUserDataDriven@69b0fd6f]" name="Validate_add_user_data_driven" duration-ms="2436" started-at="2022-04-03T22:21:17 IST" data-provider="usersData" finished-at="2022-04-03T22:21:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ankur]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Developer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_add_user_data_driven -->
+        <test-method status="PASS" signature="Validate_add_user_data_driven(java.lang.String,java.lang.String)[pri:0, instance:com.qa.TestCases.AddUserDataDriven@69b0fd6f]" name="Validate_add_user_data_driven" duration-ms="2133" started-at="2022-04-03T22:21:20 IST" data-provider="usersData" finished-at="2022-04-03T22:21:22 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sandip]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[QA Lead]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_add_user_data_driven -->
+        <test-method status="PASS" signature="Validate_add_user_data_driven(java.lang.String,java.lang.String)[pri:0, instance:com.qa.TestCases.AddUserDataDriven@69b0fd6f]" name="Validate_add_user_data_driven" duration-ms="1944" started-at="2022-04-03T22:21:22 IST" data-provider="usersData" finished-at="2022-04-03T22:21:24 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vikaram]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[QA Manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_add_user_data_driven -->
+        <test-method status="PASS" signature="Validate_add_user_data_driven(java.lang.String,java.lang.String)[pri:0, instance:com.qa.TestCases.AddUserDataDriven@69b0fd6f]" name="Validate_add_user_data_driven" duration-ms="1629" started-at="2022-04-03T22:21:24 IST" data-provider="usersData" finished-at="2022-04-03T22:21:26 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mahavir]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[QA Lead]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_add_user_data_driven -->
+      </class> <!-- com.qa.TestCases.AddUserDataDriven -->
+      <class name="com.qa.TestCases.UserListGetApiTest">
+        <test-method status="PASS" signature="Validate_get_Users_list()[pri:1, instance:com.qa.TestCases.UserListGetApiTest@ed9d034]" name="Validate_get_Users_list" duration-ms="5593" started-at="2022-04-03T22:21:05 IST" finished-at="2022-04-03T22:21:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_get_Users_list -->
+      </class> <!-- com.qa.TestCases.UserListGetApiTest -->
+      <class name="com.qa.TestCases.AddUserPostTest">
+        <test-method status="PASS" signature="Validate_Add_user_Post()[pri:1, instance:com.qa.TestCases.AddUserPostTest@74ad1f1f]" name="Validate_Add_user_Post" duration-ms="1517" started-at="2022-04-03T22:21:11 IST" finished-at="2022-04-03T22:21:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Add_user_Post -->
+      </class> <!-- com.qa.TestCases.AddUserPostTest -->
+      <class name="com.qa.TestCases.UpdatePutTest">
+        <test-method status="PASS" signature="Validate_Update_user_put()[pri:1, instance:com.qa.TestCases.UpdatePutTest@6a1aab78]" name="Validate_Update_user_put" duration-ms="1832" started-at="2022-04-03T22:21:13 IST" finished-at="2022-04-03T22:21:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Update_user_put -->
+      </class> <!-- com.qa.TestCases.UpdatePutTest -->
+    </test> <!-- GetUserList -->
+  </suite> <!-- Suite -->
+</testng-results>
